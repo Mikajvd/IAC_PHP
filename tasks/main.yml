@@ -1,0 +1,9 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Install PHP packages
+  apt:
+    name:
+      - php
+      - libapache2-mod-php
+    state: present
+# tasks file for roles/php
